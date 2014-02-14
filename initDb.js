@@ -1,4 +1,4 @@
-var PlayerModel = require('models/player/player')
+var IdentificatorModel = require('models/identificator/identificator')
     , mongoose = require("mongoose")
     , async = require('async')
     , logger = require('libs/log')(module);
@@ -305,26 +305,25 @@ var ids = [ '7fb2d',
     '3a237',
     '26a17' ];
 
-PlayerModel.remove({}, function(err) {
+IdentificatorModel.remove({}, function(err) {
     if( err ){
-        logger.info("Cannot remove all Players from db");
+        logger.info("Cannot remove all identificators from db");
         return false;
     }
-    logger.info("All players was deleted");
+    logger.info("All identificators was deleted");
     var methods = [];
 
     for( var i = 0;  i < ids.length; i++ ){
         (function(i){
             methods.push(function(callback){
                     var id = ids[i];
-                    var player = new PlayerModel({identificator: id});
-                    player.save(function(err){
+                    var identificator = new IdentificatorModel({identificator: id});
+                    identificator.save(function(err){
                         if( err ) {
-                            logger.error('Cannot save player with identificator: ' + id);
-                            callback(null);
+                            logger.error('Cannot save identificator: ' + id);
+                            callback(err);
                             return false;
                         }
-                        logger.info(id + ': ok');
                         callback(null);
                     })
                 }
@@ -334,10 +333,10 @@ PlayerModel.remove({}, function(err) {
 
     async.parallel(methods, function(err){
         if( err ){
-            logger.info("Cannot save all players");
+            logger.info("Cannot save  add identificators");
             return false;
         }
-        logger.info("All players were saved!");
+        logger.info("All identificators were saved!");
     })
 });
 
