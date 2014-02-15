@@ -22,5 +22,6 @@ var playerSchema = new Schema({
     }
 });
 
+
 var PlayerModel = mongoose.model('player', playerSchema);
 module.exports = PlayerModel;

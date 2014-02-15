@@ -2,11 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Materialise</title>
+    <title>Document</title>
+    <script src="js/libs/jquery.js"></script>
+    <script src="js/libs/aes.js"></script>
 </head>
 <body>
 
-    This is Materialise.
+
+<script>
+    var data = {
+        name: "",
+        score: 0,
+        identificator: "796c8"
+    }
+
+    data = JSON.stringify(data);
+    var secret = "keepSimple";
+
+    var encrypted = '' + CryptoJS.AES.encrypt(data, secret);
+
+
+    $.ajax({
+        type: 'post',
+        url: '/api/score/add',
+        data: {
+            data: encrypted
+        },
+        success: function(){
+            debugger
+        },
+        error: function(xhr, type, message){
+            debugger
+        }
+    })
+
+
+</script>
+
+
 
 </body>
 </html>
