@@ -11,8 +11,8 @@
 
 <script>
     var data = {
-        name: "",
-        score: 0,
+        name: "pet92",
+        score: 5,
         identificator: "796c8"
     }
 
@@ -28,6 +28,17 @@
         data: {
             data: encrypted
         },
+        success: function(){
+            debugger
+        },
+        error: function(xhr, type, message){
+            debugger
+        }
+    })
+
+    $.ajax({
+        type: "get",
+        url: "/api/score/get",
         success: function(){
             debugger
         },

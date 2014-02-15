@@ -40,7 +40,7 @@ var controller = {
 
                 PlayerModel.find({
                     name: data.name,
-                    identificator: identificators[0]._id
+                    identificator: data.identificator
                 }, function(err, players){
 
                     if( err ) return next( new HttpError(400, "player: problem with DB") );
@@ -49,31 +49,40 @@ var controller = {
 
                         if( players[0].score == data.score || players[0].score > data.score ){
                             res.send();
-                            logger.info("Existing player '" + data.name + "' with identificator: " + identificators[0]._id + " has exist or below value");
+                            logger.info("Existing player '" + data.name + "' with identificator: " + data.identificator + " has exist or below value");
                         }else {
                             players[0].update({score: data.score}, function(err){
                                 if( err ) return next( new HttpError(400, "Cannot update result") );
                                 res.send();
-                                logger.info("Existing player '" + data.name + "' with identificator: " + identificators[0]._id + " was updated");
+                                logger.info("Existing player '" + data.name + "' with identificator: " + data.identificator + " was updated");
                             })
                         }
 
                     }else{
                         var player = new PlayerModel({
                             name: data.name,
-                            identificator: identificators[0]._id,
+                            identificator: data.identificator,
                             score: data.score
                         })
                         player.save(function(err){
                             if( err ) return next( new HttpError(400, "Cannot save result") );
                             res.send();
-                            logger.info("New player '" + data.name + "' with identificator: " + identificators[0]._id + "was saved");
+                            logger.info("New player '" + data.name + "' with identificator: " + data.identificator + "was saved");
                         })
                     }
                 })
             })
 
+        },
+
+        get: function(req, res, next){
+            PlayerModel.find({}, {_id: false, score: 1, name: 1, identificator: 1},  {sort: { score: -1 }}, function(err, players){
+                if( err ) return next( new HttpError(400, "Cannot fetch players") );
+                res.send(players);
+            })
         }
     }
+
+
 }
 module.exports = controller;

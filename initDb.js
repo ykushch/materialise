@@ -1,4 +1,5 @@
 var IdentificatorModel = require('models/identificator/identificator')
+    , PlayerModel = require('models/player/player')
     , mongoose = require("mongoose")
     , async = require('async')
     , logger = require('libs/log')(module);
@@ -304,6 +305,14 @@ var ids = [ '7fb2d',
     '77f86',
     '3a237',
     '26a17' ];
+
+PlayerModel.remove({}, function(err){
+    if( err ){
+        logger.info("Cannot remove all players from db");
+        return false;
+    }
+    logger.info("All players was deleted");
+})
 
 IdentificatorModel.remove({}, function(err) {
     if( err ){

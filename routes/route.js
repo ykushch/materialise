@@ -8,5 +8,6 @@ module.exports = function(app) {
 
     //add new winner
     app.post('/api/score/add', api.score.add);
+    app.get('/api/score/get', api.score.get);
 
 }
