@@ -1,6 +1,6 @@
 @import "reset-styles.less";
 @import "gallery.less";
-
+@import "slot-machine.less";
 
 html, body {
     width: 100%;
@@ -8,7 +8,7 @@ html, body {
 }
 
 html {
-    /*background: url(../img/main-bg.jpg) no-repeat center center fixed;*/
+    background: url(../img/main-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +19,7 @@ html {
 @light-text: #684500;
 
 body {
-    font-family: 'Frijole', 'Amarante', 'Germania One','New Rocker','Open Sans Condensed', serif;
+    font-family: 'Open Sans Condensed', serif;
     color: @main-text;
 }
 
@@ -54,6 +54,7 @@ body {
     color: @light-text;
     font-size: 54px;
     line-height: 0.9;
+    font-family: 'Frijole';
 
     .company-name, h2 {
         font-size: 70%;
@@ -186,7 +187,7 @@ body {
 }
 .slider-arrow {
     position: absolute;
-    top: 0;
+    top: 170px;
     display: block;
     width: 30px;
     height: 50px;
@@ -207,3 +208,6 @@ body {
 }
 
 
+.button{
+  cursor: pointer;
+}
