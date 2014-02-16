@@ -19,6 +19,11 @@ var playerSchema = new Schema({
         type: Number,
         required: true,
         default: 0
+    },
+    countGames: {
+        type: Number,
+        required: true,
+        default: 1
     }
 });
 

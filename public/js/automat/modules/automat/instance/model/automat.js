@@ -7,11 +7,11 @@ define(['backbone'], function(Backbone){
             bet: 1,
             roundResult: null,
             maxBet: 9,
-            linecost: 2,
+            linecost: 5,
             winCostOverlap: 10, // don't use
             turnbet: null,
             isButtonDisable: false,
-            speedRotate: 1200,
+            speedRotate: 800,
             key: "keepSimple"
         },
 
@@ -257,7 +257,7 @@ define(['backbone'], function(Backbone){
                 }
             },
             {
-                percent: 3,
+                percent: 1,
                 id: 11,
                 name: "bull",
                 any: true
@@ -483,21 +483,36 @@ define(['backbone'], function(Backbone){
                 , bet = this.get('bet')
                 , winCostOverlap = this.get('winCostOverlap')
                 , result = 0
-                , currentBet
+                , winnerStar
+                , star
                 , currentOverlap;
 
             for( var i = 0; i < bet; i++ ){
                 for( var k = 0; k < winnerBet.length; k++ ){
-                    currentBet = winnerBet[k]['bet_bit'];
                     currentOverlap = winnerBet[k]['overlap'];
+                    winnerStar = winnerBet[k]['winnerStar'];
 
                     if( winnerBet[k]['bet_bit'] == i+1 ){
-                        result += this.tableOfStars[ currentBet ].win[currentOverlap];
+                        star = this.findStarById(winnerStar);
+                        if(star){
+                            result += star.win[currentOverlap];
+                        }
                         //result += winnerBet[k]['overlap'] * winCostOverlap;
                     }
                 }
             }
 
+            return result;
+        },
+
+        findStarById: function(id){
+            var result;
+            for( var i = 0; i < this.tableOfStars.length; i++ ){
+                if( this.tableOfStars[i].id == id ){
+                    result = this.tableOfStars[i];
+                    break;
+                }
+            }
             return result;
         }
     })

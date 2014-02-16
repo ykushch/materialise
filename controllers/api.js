@@ -47,6 +47,9 @@ var controller = {
 
                     if( players.length ){
 
+                        var countGames = players[0].countGames;
+                        countGames++;
+
                         if( players[0].score == data.score || players[0].score > data.score ){
                             res.send();
                             logger.info("Existing player '" + data.name + "' with identificator: " + data.identificator + " has exist or below value");
@@ -57,6 +60,14 @@ var controller = {
                                 logger.info("Existing player '" + data.name + "' with identificator: " + data.identificator + " was updated");
                             })
                         }
+
+                        players[0].update({countGames: countGames}, function(err){
+                            if( err ) {
+                                logger.info("Cannot update  countGames for '" + data.name + "' with identificator: " + data.identificator );
+                                return false;
+                            }
+                            logger.info("Update countGames for '" + data.name + "' with identificator: " + data.identificator );
+                        })
 
                     }else{
                         var player = new PlayerModel({
