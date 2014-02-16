@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>slider</title>
+    <title>Slot machine</title>
     <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Germania+One' rel='stylesheet' type='text/css'>-->
@@ -17,7 +17,10 @@
 <body>
 <div class="slot-paper-bg">
     <div class="slot-machine">
-        <a href="#" class="paytable"></a>
+        <div class="nav-bar">
+            <a href="index.html" class="btn home"></a>
+            <a href="photo-gallery.html" class="btn gallery"></a>
+        </div>
         <div class="lines-picker">
             <span class="l1 line">
                 <img src="img/line-samples/line1.png" alt=""/>
@@ -75,6 +78,12 @@
             </div>
         </div>
     </div>
+    <div class="user-info">
+        <form action="get">
+            <input class="input-id" type="text"/>
+            <input class="input-name" type="text"/>
+        </form>
+    </div>
     <div class="slot-machine-control">
         <span class="digital bet">0000000000</span>
         <span class="digital win">1234567890</span>
@@ -83,6 +92,8 @@
             <span class="item-inner"><span class="line-cost">10 </span>(Line cost)</span> =
             <span class="item-inner"><span class="turn-bet">40 </span>(Line cost)</span>
         </div>
+        <a href="#" class="btn-paytable"></a>
+        <a href="#" class="btn-howto"></a>
         <span class="btn-leaderboard button"></span>
         <span class="btn-bet-lines  button"></span>
         <span class="btn-play  button"></span>
