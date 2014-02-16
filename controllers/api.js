@@ -35,15 +35,15 @@ var controller = {
                 identificator: data.identificator
 
             }, function(err, identificators){
-                if( err ) return next( new HttpError(400, "identificator: problem with DB") );
-                if( !identificators || !identificators.length ) return next( new HttpError(400, "Cannot find identificator") );
+                if( err ) return next( new HttpError(400, "Id: server problem") );
+                if( !identificators || !identificators.length ) return next( new HttpError(400, "Cannot find id") );
 
                 PlayerModel.find({
                     name: data.name,
                     identificator: data.identificator
                 }, function(err, players){
 
-                    if( err ) return next( new HttpError(400, "player: problem with DB") );
+                    if( err ) return next( new HttpError(400, "Player: server error") );
 
                     if( players.length ){
 
@@ -77,7 +77,7 @@ var controller = {
 
         get: function(req, res, next){
             PlayerModel.find({}, {_id: false, score: 1, name: 1, identificator: 1},  {sort: { score: -1 }}, function(err, players){
-                if( err ) return next( new HttpError(400, "Cannot fetch players") );
+                if( err ) return next( new HttpError(400, "Cannot get players") );
                 res.send(players);
             })
         }

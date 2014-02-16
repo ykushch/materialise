@@ -7,11 +7,12 @@ define(['backbone'], function(Backbone){
             bet: 1,
             roundResult: null,
             maxBet: 9,
-            linecost: 5,
-            winCostOverlap: 10,
+            linecost: 2,
+            winCostOverlap: 10, // don't use
             turnbet: null,
             isButtonDisable: false,
-            speedRotate: 1200
+            speedRotate: 1200,
+            key: "keepSimple"
         },
 
         tableForGenerateResult: null, // [1, 2, 2, 3, 3, 3, 4, 4, 4, 4 ....]
@@ -481,12 +482,18 @@ define(['backbone'], function(Backbone){
             var winnerBet = this.getUserWinnerBet()
                 , bet = this.get('bet')
                 , winCostOverlap = this.get('winCostOverlap')
-                , result = 0;
+                , result = 0
+                , currentBet
+                , currentOverlap;
 
             for( var i = 0; i < bet; i++ ){
                 for( var k = 0; k < winnerBet.length; k++ ){
+                    currentBet = winnerBet[k]['bet_bit'];
+                    currentOverlap = winnerBet[k]['overlap'];
+
                     if( winnerBet[k]['bet_bit'] == i+1 ){
-                        result += winnerBet[k]['overlap'] * winCostOverlap;
+                        result += this.tableOfStars[ currentBet ].win[currentOverlap];
+                        //result += winnerBet[k]['overlap'] * winCostOverlap;
                     }
                 }
             }

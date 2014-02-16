@@ -6,9 +6,14 @@ define([
     './views/Layout',
     './views/BetsBtnView',
     './views/MachineItemsViews',
-    './views/MachineControlView'
+    './views/MachineControlView',
+    './views/PopUpView',
+    './model/popup',
+    'aes'
 
-], function(Backbone, _, AutomatModel, Layout, BetsBtnView, MachineItemsViews, MachineControlView){
+], function(Backbone, _, AutomatModel, Layout,
+            BetsBtnView, MachineItemsViews, MachineControlView,
+            PopUpView, PopUpModel){
 
     function Automate(options){
         this.init(options);
@@ -45,6 +50,7 @@ define([
 
             switch(type){
                 case "getwin":
+                    this.getwin();
                     break;
                 case "maxbet":
                     this.maxBetChange();
@@ -83,12 +89,13 @@ define([
                 , turnbet = this.model.get("turnbet");
 
             if( totalWin <= 0 ){
-                alert("You don't have money");
+                this.showPopUp({text: "You don't have money"});
+
                 return false;
             }
 
             if( totalWin < turnbet ){
-                alert("You don't have money (turnbet)");
+                this.showPopUp({text: "You don't have enough money"});
                 return false;
             }
 
@@ -109,8 +116,79 @@ define([
                 this.model.calculateLost();
             }
 
-
             this.model.set('isButtonDisable', false);
+        },
+
+        getName: function(){
+            return $.trim(this.layout.$el.find('.input-name').val());
+        },
+
+        getId: function(){
+            return $.trim(this.layout.$el.find('.input-id').val());
+        },
+
+        getwin: function(){
+
+            if( !this.getName() || !this.getId() ){
+                this.showPopUp({
+                    text:"Если вы хотите чтобы в следующий раз ваш результат был учтен в таблице результатов," +
+                        " введите свой ID и Name",
+                    timeout: 5000});
+            }else{
+                this.sendDataToServer()
+            }
+
+            this.model.clear().set(this.model.defaults);
+
+        },
+
+        showPopUp: function(data){
+            var popUp = new PopUpView({
+                model: new PopUpModel(data)
+            });
+            popUp.show();
+        },
+
+        sendDataToServer: function(){
+
+            var data = {
+                    name: this.getName(),
+                    score: this.model.get("totalWin"),
+                    identificator: this.getId()
+                }
+                , _this = this;
+
+            data = JSON.stringify(data);
+            var encrypted = '' + CryptoJS.AES.encrypt(data, this.model.get("key"));
+
+            $.ajax({
+                type: 'post',
+                url: '/api/score/add',
+                data: {data: encrypted},
+                success: function(){
+                    _this.showPopUp({
+                        text: "Result was saved."
+                    })
+                },
+                error: function(xhr, type, message){
+                    var responseText = xhr.responseText
+                        , text = "Server error";
+
+                    if( responseText ){
+                        try{
+                            responseText = JSON.parse(responseText)
+                            if( responseText && responseText.error ){
+                                text = responseText.error;
+                            }
+                        }catch(e){}
+
+                    }
+
+                    _this.showPopUp({
+                        text: text
+                    })
+                }
+            })
         }
     });
     return Automate;
