@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'Digital-7Mono';
+	src: url('Digital-7Mono.eot?') format('eot'), 
+	     url('Digital-7Mono.woff') format('woff'), 
+	     url('Digital-7Mono.ttf')  format('truetype'),
+	     url('Digital-7Mono.svg#Digital-7Mono') format('svg');
+}

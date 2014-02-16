@@ -177,11 +177,11 @@
   height: 84px;
   background: url("../img/paytable.png") no-repeat;
   position: absolute;
-  bottom: -40px;
+  bottom: -20px;
   left: 60px;
 }
 .slot-machine-control {
-  margin: 25px auto auto;
+  margin: 5px auto auto;
   z-index: 20;
   display: block;
   background: url("../img/slot-machine-controls-BG.png") no-repeat;
@@ -198,8 +198,11 @@
   top: 15px;
   width: 86px;
   &:hover{
-    background-image: url("../img/btn-play-hover.png");
+    background-image: url("../img/btn-play-active.png");
   }
+  /*&:active{
+    background-image: url("../img/btn-play-active.png");
+  }*/
 }
 
 .btn-bet-lines {
@@ -250,4 +253,30 @@
 &:hover{
   background-image: url("../img/btn-get-win-hover.png");
 }
+}
+
+.digital {
+  font-family: 'Digital';
+  color: white;
+  display: block;
+  position: absolute;
+  font-size: 30px;
+  &.bet {
+    left: 18px;
+    top: 44px;
+  }
+  &.win {
+    top: 43px;
+    right:22px;
+  }
+}
+.bet-description {
+  position: absolute;
+  bottom: 8px;
+  left: 340px;
+  color: #ffffff;
+  font-size: 20px;
+  .item-inner span {
+    font-weight: 600;
+  }
 }
