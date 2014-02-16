@@ -7,6 +7,8 @@ define([
 
         template: _.template(layoutTemp),
 
+        className: "slot-paper-bg",
+
         initialize: function(){
             this.render();
         },

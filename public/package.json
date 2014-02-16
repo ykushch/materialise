@@ -2,6 +2,9 @@
     "name": "materialise",
     "version": "0.0.0",
     "devDependencies": {
-        "requirejs": ""
+        "requirejs": "",
+        "grunt": "~0.4.1",
+        "grunt-contrib-watch": "~0.5.1",
+        "grunt-contrib-less": ""
     }
 }

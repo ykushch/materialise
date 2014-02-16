@@ -1,10 +1,15 @@
 define(['backbone'], function(Backbone){
-
     return Backbone.Model.extend({
+
         defaults: {
-            score: 100,
+            totalWin: 500,
+            roundWin: 0,
             bet: 1,
-            roundResult: null
+            roundResult: null,
+            maxBet: 9,
+            linecost: 10,
+            turnbet: null,
+            isButtonDisable: false
         },
 
         tableForGenerateResult: null, // [1, 2, 2, 3, 3, 3, 4, 4, 4, 4 ....]
@@ -50,6 +55,7 @@ define(['backbone'], function(Backbone){
 
         initialize: function(){
             this.tableForGenerateResult = this.generateTableResult();
+            this.setTurnbet();
 
             var coutBetBit1 = 0;
             var winnerStart = {
@@ -86,6 +92,11 @@ define(['backbone'], function(Backbone){
             console.log(winnerStart);
             console.log("countBetBit: " + (coutBetBit1*100)/popitka + "%");
 
+        },
+
+        setTurnbet: function(){
+            var turnbet = this.get('bet') *  this.get('linecost');
+            this.set('turnbet', turnbet);
         },
 
         generateTableResult: function(){
@@ -160,47 +171,47 @@ define(['backbone'], function(Backbone){
         ],
 
         /*tableOfStars: [
-            {
-                percent: 1,
-                id: 1
-            },
-            {
-                percent: 2,
-                id: 2
-            },
-            {
-                percent: 3,
-                id: 3
-            },
-            {
-                percent: 4,
-                id: 4
-            },
-            {
-                percent: 5,
-                id: 5
-            },
-            {
-                percent: 6,
-                id: 6
-            },
-            {
-                percent: 7,
-                id: 7
-            },
-            {
-                percent: 8,
-                id: 8
-            },
-            {
-                percent: 9,
-                id: 9
-            },
-            {
-                percent: 10,
-                id: 10
-            }
-        ],*/
+         {
+         percent: 1,
+         id: 1
+         },
+         {
+         percent: 2,
+         id: 2
+         },
+         {
+         percent: 3,
+         id: 3
+         },
+         {
+         percent: 4,
+         id: 4
+         },
+         {
+         percent: 5,
+         id: 5
+         },
+         {
+         percent: 6,
+         id: 6
+         },
+         {
+         percent: 7,
+         id: 7
+         },
+         {
+         percent: 8,
+         id: 8
+         },
+         {
+         percent: 9,
+         id: 9
+         },
+         {
+         percent: 10,
+         id: 10
+         }
+         ],*/
 
         generateResult: function(options){
             var result = [];
@@ -303,7 +314,7 @@ define(['backbone'], function(Backbone){
 
             if( overlap > 1 ){
 
-               /* console.log('-----------------------------')
+                /* console.log('-----------------------------')
                  console.log("winner star: " + winnerStar);
                  console.log("winnerValues: " + winnerValues);
                  console.log("overlap: " + overlap);
@@ -379,4 +390,3 @@ define(['backbone'], function(Backbone){
     })
 
 })
-
