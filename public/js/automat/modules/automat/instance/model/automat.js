@@ -7,9 +7,11 @@ define(['backbone'], function(Backbone){
             bet: 1,
             roundResult: null,
             maxBet: 9,
-            linecost: 10,
+            linecost: 5,
+            winCostOverlap: 10,
             turnbet: null,
-            isButtonDisable: false
+            isButtonDisable: false,
+            speedRotate: 1200
         },
 
         tableForGenerateResult: null, // [1, 2, 2, 3, 3, 3, 4, 4, 4, 4 ....]
@@ -72,11 +74,11 @@ define(['backbone'], function(Backbone){
                 11: 0
             }
 
-            var popitka = 100000;
+            /*var popitka = 100000;
 
             for(var i = 0; i < popitka; i++ ){
                 this.set("roundResult", this.generateResult());
-                var winnerBet = this.isWinner();
+                var winnerBet = this.getAllWinnerBet();
                 if( winnerBet.length ){
                     for( var k = 0; k < winnerBet.length; k++ ){
 
@@ -91,7 +93,7 @@ define(['backbone'], function(Backbone){
 
             console.log(winnerStart);
             console.log("countBetBit: " + (coutBetBit1*100)/popitka + "%");
-
+*/
         },
 
         setTurnbet: function(){
@@ -122,102 +124,152 @@ define(['backbone'], function(Backbone){
             return array;
         },
 
+        getRandomStarts: function(count){
+            var result = [];
+            for( var i = 0; i < count; i++ ){
+                result.push(this.tableOfStars[this.getRandomValue(0, 10)]);
+            }
+            return result;
+        },
+
+        getStarsByIds: function(stars){
+            var result = [];
+            for( var i = 0; i < stars.length; i++ ){
+                for( var k = 0; k < this.tableOfStars.length; k++ ){
+                    if( stars[i] == this.tableOfStars[k]['id'] ){
+                        result.push(this.tableOfStars[k]);
+                    }
+                }
+            }
+            return result;
+        },
+
         tableOfStars: [
             {
                 percent: 1,
-                id: 1
+                id: 1,
+                name: "10",
+                win: {
+                    2: 1,
+                    3: 2,
+                    4: 10,
+                    5: 25
+                }
             },
             {
                 percent: 2,
-                id: 2
+                id: 2,
+                name: "A",
+                win: {
+                    2: 5,
+                    3: 10,
+                    4: 20,
+                    5: 100
+                }
             },
             {
                 percent: 3,
-                id: 3
+                id: 3,
+                name: "beer",
+                win: {
+                    2: 5,
+                    3: 10,
+                    4: 50,
+                    5: 200
+                }
             },
             {
                 percent: 4,
-                id: 4
+                id: 4,
+                name: "gun",
+                win: {
+                    2: 10,
+                    3: 20,
+                    4: 100,
+                    5: 750
+                }
             },
             {
                 percent: 5,
-                id: 5
+                id: 5,
+                name: "hat",
+                win: {
+                    2: 10,
+                    3: 15,
+                    4: 75,
+                    5: 400
+                }
             },
             {
                 percent: 6,
-                id: 6
+                id: 6,
+                name: "J",
+                win: {
+                    2: 1,
+                    3: 2,
+                    4: 20,
+                    5: 40
+                }
             },
             {
                 percent: 7,
-                id: 7
+                id: 7,
+                name: "K",
+                win: {
+                    2: 2,
+                    3: 5,
+                    4: 15,
+                    5: 75
+                }
             },
             {
                 percent: 8,
-                id: 8
+                id: 8,
+                name: "Q",
+                win: {
+                    2: 2,
+                    3: 4,
+                    4: 12,
+                    5: 50
+                }
             },
             {
                 percent: 9,
-                id: 9
+                id: 9,
+                name: "shouse",
+                win: {
+                    2: 6,
+                    3: 12,
+                    4: 60,
+                    5: 300
+                }
             },
             {
                 percent: 10,
-                id: 10
+                id: 10,
+                name: "star",
+                win: {
+                    2: 10,
+                    3: 20,
+                    4: 125,
+                    5: 1000
+                }
             },
             {
                 percent: 3,
                 id: 11,
+                name: "bull",
                 any: true
             }
         ],
-
-        /*tableOfStars: [
-         {
-         percent: 1,
-         id: 1
-         },
-         {
-         percent: 2,
-         id: 2
-         },
-         {
-         percent: 3,
-         id: 3
-         },
-         {
-         percent: 4,
-         id: 4
-         },
-         {
-         percent: 5,
-         id: 5
-         },
-         {
-         percent: 6,
-         id: 6
-         },
-         {
-         percent: 7,
-         id: 7
-         },
-         {
-         percent: 8,
-         id: 8
-         },
-         {
-         percent: 9,
-         id: 9
-         },
-         {
-         percent: 10,
-         id: 10
-         }
-         ],*/
 
         generateResult: function(options){
             var result = [];
             for( var i = 0; i < 5; i++ ){
                 result.push( this.generateOneLine() );
             }
+
+            this.set('roundResult',result);
             return result;
         },
 
@@ -239,8 +291,27 @@ define(['backbone'], function(Backbone){
             return Math.round(rand);
         },
 
-        isWinner: function(){
+        getUserWinnerBet: function(){
             var roundResult = this.get("roundResult")
+                , bet = this.get('bet')
+                , result = []
+                , currentBet
+                , betResult;
+
+            for( var i = 0; i < this.winnerTable.length; i++ ){
+                currentBet = this.winnerTable[i];
+                if( currentBet['bit'] <= bet ){
+                    betResult = this.isBetWinner(currentBet, roundResult);
+                    if( !betResult ) continue;
+                    result.push(betResult);
+                }
+            }
+            return result;
+        },
+
+        getAllWinnerBet: function(){
+            var roundResult = this.get("roundResult")
+                , bet = this.get('bet')
                 , result = []
                 , currentBet
                 , betResult;
@@ -382,6 +453,41 @@ define(['backbone'], function(Backbone){
                 if( winnerValues[i] == 11 ){
                     result = true;
                     break;
+                }
+            }
+
+            return result;
+        },
+
+        calculateLost: function(){
+            var bet = this.get('bet')
+                , lostRound = -bet * this.get('linecost')
+                , totalWin = this.get('totalWin');
+            this.set('roundWin', lostRound);
+            this.set('totalWin', totalWin + lostRound);
+        },
+
+        calculateSuccess: function(){
+            var  lostMoney = this.get('bet') * this.get('linecost')
+                , winMoney = this.calculateWinMoney()
+                , totalWin = this.get('totalWin')
+                , total = winMoney - lostMoney;
+
+            this.set('roundWin', total);
+            this.set('totalWin', totalWin + total);
+        },
+
+        calculateWinMoney: function(){
+            var winnerBet = this.getUserWinnerBet()
+                , bet = this.get('bet')
+                , winCostOverlap = this.get('winCostOverlap')
+                , result = 0;
+
+            for( var i = 0; i < bet; i++ ){
+                for( var k = 0; k < winnerBet.length; k++ ){
+                    if( winnerBet[k]['bet_bit'] == i+1 ){
+                        result += winnerBet[k]['overlap'] * winCostOverlap;
+                    }
                 }
             }
 

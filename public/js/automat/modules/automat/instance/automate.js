@@ -36,6 +36,7 @@ define([
 
             //$(document).on('keydown', {this_: _this},  this.keydown);
             this.channel.on("controlBtnClick", function(data){_this.controlBtnHandler(data)});
+            this.channel.on("endRotate", function(data){_this.endRotate(data)});
         },
 
         controlBtnHandler: function(data){
@@ -95,14 +96,21 @@ define([
             this.model.generateResult();
             this.channel.trigger('rotateItems');
 
-/*            var winnerBet = this.model.isWinner();
+        },
+
+        endRotate: function(){
+            var winnerBet = this.model.getUserWinnerBet();
+
             if( winnerBet.length ){
                 //игрок что то выиграл
+                this.model.calculateSuccess();
             }else{
                 //игрок ничего не выиграл
-            }*//**/
+                this.model.calculateLost();
+            }
 
 
+            this.model.set('isButtonDisable', false);
         }
     });
     return Automate;
