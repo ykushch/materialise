@@ -8,7 +8,8 @@ requirejs.config({
         /*libs*/
         underscore: "underscore",
         backbone: "backbone",
-        async: "async"
+        async: "async",
+        aes: "aes"
     },
 
     shim:{
@@ -21,6 +22,9 @@ requirejs.config({
         backbone: {
             deps: ['jquery', 'underscore'],
             exports: 'Backbone'
+        },
+        aes: {
+            exports: 'CryptoJS'
         }
     },
 

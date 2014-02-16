@@ -13,9 +13,10 @@ define([
             "click .line" : "clickBetHandler"
         },
 
-        initialize: function(){
+        initialize: function(options){
+            this.channel = options.channel;
             this.listenTo(this.model, "change:bet", this.betHandler);
-            this.interval;
+            this.listenTo(this.channel, "endRotate", this.endRotate);
             this.render();
         },
 
@@ -69,6 +70,18 @@ define([
             if(!number) return false;
             this.model.set('turnbet', number * this.model.get('linecost'));
             this.model.set('bet', number);
+        },
+
+        endRotate: function(){
+            var winnerBet = this.model.getUserWinnerBet()
+                , _this = this;
+            for( var i = 0; i < winnerBet.length; i++ ){
+                this.$el.find("span[data-number='"+ winnerBet[i].bet_bit +"']").addClass('showImg');
+            }
+
+            this.interval = setTimeout(function(){
+                _this.hideAllBetsLine();
+            }, 1500);
         }
 
     })

@@ -1,5 +1,5 @@
 .slot-paper-bg {
-  //background: url("../img/paper-bg-slot.png") no-repeat;
+  background: url("../img/paper-bg-slot.png") no-repeat;
   width: 1250px;
   height: 960px;
   margin: 10px auto;
@@ -13,6 +13,37 @@
   margin: 0 auto;
   position: relative;
   z-index: 10;
+  .nav-bar{
+    z-index: 5;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    .btn {
+      display: block;
+      position: absolute;
+      &.home {
+        background: url("../img/btn-home.png") no-repeat;
+        top:-20px;
+        left: 72px;
+        width: 242px;
+        height: 98px;
+        &:hover {
+          background: url("../img/btn-home-hover.png");
+        }
+      }
+      &.gallery {
+        background: url("../img/btn-photos.png") no-repeat;
+        top:-20px;
+        right: 72px;
+        width: 242px;
+        height: 98px;
+        &:hover {
+          background: url("../img/btn-photos-hover.png");
+        }
+      }
+    }
+  }
 }
 
 .lines-picker {
@@ -165,22 +196,49 @@
   .col {
     float: left;
     width: 160px;
-    height: 100%;
+    height: 486px;
     margin-right: 25px;
     overflow: hidden;
+    position: relative;
     &.c5{margin-right: 0;}
+  }
+  .scroll_old,
+  .scroll_new
+  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .item{
+    display: block;
+    height: 162px;
   }
 }
 
 
-.paytable {
+.btn-paytable {
+  background: url("../img/btn-paytable.png") no-repeat;
+  bottom: 58px;
   display: block;
-  width: 242px;
-  height: 84px;
-  background: url("../img/paytable.png") no-repeat;
+  height: 50px;
+  left: 178px;
   position: absolute;
-  bottom: -20px;
-  left: 60px;
+  width: 142px;
+  &:hover{
+    background-image: url("../img/btn-paytable-hover.png");
+  }
+}
+.btn-howto {
+  background: url("../img/btn-howto.png") no-repeat;
+  bottom: 58px;
+  display: block;
+  height: 50px;
+  right: 190px;
+  position: absolute;
+  width: 142px;
+  &:hover{
+    background-image: url("../img/btn-howto-hover.png");
+  }
 }
 .slot-machine-control {
   margin: 5px auto auto;
@@ -280,5 +338,45 @@
   font-size: 20px;
   .item-inner span {
     font-weight: 600;
+  }
+}
+.user-info {
+  position: relative;
+  width: 1000px;
+  z-index: 15;
+  margin: 0 auto;
+}
+.input-id {
+  background: url("../img/input-id.png") no-repeat;
+  border: 0 none !important;
+  color: #FFFFFF;
+  display: block;
+  height: 67px;
+  left: 40px;
+  outline: 0 none !important;
+  padding: 12px 40px 0 85px;
+  font-size: 20px;
+  position: absolute;
+  top: -58px;
+  width: 120px;
+  &:hover{
+    background-image: url("../img/input-id-hover.png");
+  }
+}
+.input-name {
+  background: url("../img/input-name.png") no-repeat;
+  border: 0 none !important;
+  color: #FFFFFF;
+  display: block;
+  font-size: 20px;
+  height: 67px;
+  outline: 0 none !important;
+  padding: 12px 36px 0 130px;
+  position: absolute;
+  right: 40px;
+  top: -58px;
+  width: 80px;
+  &:hover{
+    background-image: url("../img/input-name-hover.png");
   }
 }

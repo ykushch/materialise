@@ -17,6 +17,8 @@ define([
             this.channel = options.channel;
 
             this.listenTo(this.model, "change:bet", this.betHandler);
+            this.listenTo(this.model, "change:roundWin", this.roundWinHandler);
+            this.listenTo(this.model, "change:totalWin", this.totalWinHandler);
 
             this.render();
         },
@@ -42,6 +44,15 @@ define([
             this.$el.find(".bet-description .bet-line").html( this.model.get('bet') );
             this.$el.find(".bet-description .bet-line").html( this.model.get('bet') );
             this.$el.find(".bet-description .turn-bet").html( this.model.get('turnbet') );
+        },
+
+        roundWinHandler: function(){
+            this.$el.find(".bet").html( this.model.get('roundWin') );
+            this.$el.find(".win").html( this.model.get('totalWin') );
+        },
+
+        totalWinHandler: function(){
+            this.$el.find(".win").html( this.model.get('totalWin') );
         }
 
     })
