@@ -1,0 +1,253 @@
+.slot-paper-bg {
+  background: url("../img/paper-bg-slot.png") no-repeat;
+  width: 1250px;
+  height: 960px;
+  margin: 10px auto;
+  padding-top: 40px;
+}
+.slot-machine {
+  display: block;
+  width: 1000px;
+  height: 650px;
+  background: url("../img/slot-machine-BG.png") no-repeat;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.lines-picker {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .line {
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 90px;
+    background-repeat: no-repeat;
+    z-index: 14;
+    cursor: pointer;
+    &:hover{
+      img {
+        display: block;
+      }
+    }
+    img {
+      position: absolute;
+      z-index: 16;
+      display: none;
+    }
+    &.l1{
+      bottom: 240px;
+      left: 0;
+      background-image: url("../img/l1.png");
+      img {
+        left: 70px;
+        top: 40px;
+      }
+    }
+    &.l2{
+      bottom: 440px;
+      left: 0;
+      background-image: url("../img/l2-dis.png");
+      img {
+        left: 70px;
+        top: 66px;
+      }
+    }
+    &.l3{
+      bottom: 140px;
+      left: 0;
+      background-image: url("../img/l3-dis.png");
+      img {
+        left: 70px;
+        bottom: -16px;
+      }
+    }
+    &.l4{
+      bottom: 340px;
+      left: 0;
+      background-image: url("../img/l4-dis.png");
+      img {
+        left: 110px;
+        top: -50px;
+      }
+    }
+    &.l5{
+      bottom: 40px;
+      left: 0;
+      background-image: url("../img/l5-dis.png");
+      img {
+        bottom: 50px;
+        left: 105px;
+      }
+    }
+    &.l6{
+      bottom: 400px;
+      right: 0;
+      background-image: url("../img/l6-dis.png");
+      img {
+        bottom: -115px;
+        right: 100px;
+      }
+    }
+    &.l7{
+      bottom: 300px;
+      right: 0;
+      background-image: url("../img/l7-dis.png");
+      img {
+        bottom: -160px;
+        right: 85px;
+      }
+    }
+    &.l8{
+      bottom: 200px;
+      right: 0;
+      background-image: url("../img/l8-dis.png");
+      img {
+        bottom: -96px;
+        right: 85px;
+      }
+    }
+    &.l9{
+      bottom: 100px;
+      right: 0;
+      background-image: url("../img/l9-dis.png");
+      img {
+        right: 145px;
+        top: -284px;
+      }
+    }
+    &:hover {
+      &.l1{
+        img {
+        }
+      }
+      &.l2{
+        background-image: url("../img/l2.png");
+        img {
+        }
+      }
+      &.l3{
+        background-image: url("../img/l3.png");
+      }
+      &.l4{
+        background-image: url("../img/l4.png");
+      }
+      &.l5{
+        background-image: url("../img/l5.png");
+      }
+      &.l6{
+        background-image: url("../img/l6.png");
+      }
+      &.l7{
+        background-image: url("../img/l7.png");
+      }
+      &.l8{
+        background-image: url("../img/l8.png");
+      }
+      &.l9{
+        background-image: url("../img/l9.png");
+      }
+    }
+  }
+}
+
+.slot-machine-items {
+  width: 905px;
+  height: 480px;
+  position: absolute;
+  top: 116px;
+  left: 50px;
+  overflow: hidden;
+  z-index: 12;
+  .col {
+    float: left;
+    width: 160px;
+    height: 100%;
+    margin-right: 25px;
+    &.c5{margin-right: 0;}
+  }
+}
+
+
+.paytable {
+  display: block;
+  width: 242px;
+  height: 84px;
+  background: url("../img/paytable.png") no-repeat;
+  position: absolute;
+  bottom: -40px;
+  left: 60px;
+}
+.slot-machine-control {
+  margin: 25px auto auto;
+  z-index: 20;
+  display: block;
+  background: url("../img/slot-machine-controls-BG.png") no-repeat;
+  width: 1000px;
+  height: 140px;
+  position: relative;
+}
+.btn-play {
+  background: url("../img/btn-play.png") no-repeat;
+  display: block;
+  height: 86px;
+  left: 454px;
+  position: absolute;
+  top: 15px;
+  width: 86px;
+  &:hover{
+    background-image: url("../img/btn-play-hover.png");
+  }
+}
+
+.btn-bet-lines {
+  background: url("../img/btn-bet-lines.png") no-repeat;
+  display: block;
+  height: 83px;
+  left: 344px;
+  position: absolute;
+  top: 17px;
+  width: 130px;
+  &:hover{
+    background-image: url("../img/btn-bet-lines-hover.png");
+  }
+}
+.btn-bet-max {
+  background: url("../img/btn-bet-max.png") no-repeat;
+  display: block;
+  height: 83px;
+  left: 519px;
+  position: absolute;
+  top: 17px;
+  width: 130px;
+  &:hover{
+    background-image: url("../img/btn-bet-max-hover.png");
+  }
+}
+.btn-leaderboard {
+  background: url("../img/btn-leaderboard.png") no-repeat;
+  display: block;
+  height: 43px;
+  left: 10px;
+  position: absolute;
+  bottom: 4px;
+  width: 155px;
+  &:hover{
+    background-image: url("../img/btn-leaderboard-hover.png");
+  }
+}
+
+.btn-get-win {
+  background: url("../img/btn-get-win.png") no-repeat;
+  display: block;
+  height: 44px;
+  right: 10px;
+  position: absolute;
+  bottom: 4px;
+  width: 155px;
+&:hover{
+  background-image: url("../img/btn-get-win-hover.png");
+}
+}
