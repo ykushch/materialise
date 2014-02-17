@@ -63,37 +63,6 @@ body {
 }
 
 
-
-.star {
-    text-align: center;
-
-    li {
-        width: 100px;
-        height: 100px;
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-    a {
-        display: block;
-        height: 100%;
-        transition-duration: 5s;
-        -webkit-transition-duration: 5s;
-        position: relative;
-        background: url("../img/star.png") no-repeat;
-
-        &:hover {
-            transform: rotate(360deg);
-
-            img {
-                display: none;
-            }
-        }
-
-    }
-}
-
-
 .s-menu {
     padding: 20px 50px;
 
@@ -165,14 +134,64 @@ body {
     .slider {
         float: left;
     }
+    .b-leaderboard {
+      display: block;
+      float: left;
+      height: 600px;
+      margin-left: 60px;
+      margin-top: 22px;
+      width: 400px;
+      background: url("../img/leaders-table-home.png") no-repeat;
+      position: relative;
+      .star {
+        position: absolute;
+        top: 40px;
+        display: block;
+        height: 56px;
+        width: 56px;
+        background: url("../img/star_disabled.png") no-repeat;
+        &.left{
+          left: 24px;
+          transition-duration: 4s;
+          -webkit-transition-duration: 4s;
+        }
+        &.right{
+          right: 24px;
+          transition-duration: 5.1s;
+          -webkit-transition-duration: 4.8s;
+        }
+      }
+      &:hover {
+        .star {
+          transform: rotate(360deg);
+        }
+      }
+    }
 
-
-    .slot-machine {
+    .b-slot-machine {
+      outline: none;
+      display: block;
         float: right;
         padding-right: 50px;
+      position: relative;
+      padding-bottom: 70px;
+      .btn-lets-play {
+        background: url("../img/btn-lets-play.png") no-repeat;
+        bottom: 0px;
+        display: block;
+        height: 50px;
+        right: 53px;
+        position: absolute;
+        width: 155px;
+        &:hover{
+          background-image: url("../img/btn-lets-play-hover.png");
+        }
+      }
     }
 }
-
+.s-games {
+  padding: 20px;
+}
 .cycle-slideshow {
     width: 100%;
     height: 100%;
@@ -210,4 +229,45 @@ body {
 
 .button{
   cursor: pointer;
+}
+.results-inner {
+  height: 530px;
+  width: 400px;
+  overflow: hidden;
+}
+.table-results {
+  width: 470px;
+  color: #F4F4F4;
+  font-size: 12px;
+  margin: 120px 7% 30px;
+  line-height: 1.1;
+  padding-left: 20px;
+  height: 627px;
+  overflow-x: scroll;
+  li {
+    height: 35px;
+    padding: 8px 0;
+    span {
+      display: inline-block;
+      word-wrap: break-word;
+    }
+    &:nth-child(2) {
+      color:#B5B5B5;
+    }
+  }
+  .name {
+    width: 125px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .number {
+    width: 65px;
+  }
+  .win {
+    width: 75px;
+    font-weight: 600;
+  }
+  .games {
+    width: 30px;
+  }
 }
