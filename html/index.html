@@ -34,18 +34,14 @@
     </div>
 
     <div id="da-slider" class="da-slider">
-        <div class="slider-title">
-            Materialise Cowboy code
-        </div>
+
         <div class="da-slide">
             <h2>A cowboy never takes unfair advantage - even of an enemy</h2>
             <p>Be tough, but fair.</p>
-            <div class="da-img"></div>
         </div>
         <div class="da-slide">
             <h2>A cowboy never betrays a trust. He never goes back on his word</h2>
             <p>When you make a promise, keep it. You cannot unsay a cruel word.</p>
-            <div class="da-img"></div>
         </div>
         <div class="da-slide">
             <h2>A cowboy always tells the truth</h2>
@@ -77,9 +73,10 @@
             <p>In being prepared physically, mentally, and morally to fight when necessary for that which is right. That all things change, but the truth, and the truth alone lives on forever.</p>
             <div class="da-img"></div>
         </div>
+
         <nav class="da-arrows">
-            <span class="da-arrows-prev">prev</span>
-            <span class="da-arrows-next">next</span>
+            <span class="da-arrows-prev"></span>
+            <span class="da-arrows-next"></span>
         </nav>
     </div>
 
@@ -145,16 +142,18 @@
         </div>
     </div>
     <div class="s-salon-menu">
-        Dear  Cowboy
+        <p class="dear">Dear  Cowboy <br/>
             We wish you to
-
-            Accept the challenge
-            Be on the top
-            Be in love
-            Be inspired
-            Have a brave heart
-            Use your chances
-            and Win
+        </p>
+        <p class="wishes-inner">
+            <span class="wishes challenges">Accept the challenge</span>
+            <span class="wishes top">Be on the top</span>
+            <span class="wishes love">Be in love</span>
+            <span class="wishes inspired">Be inspired</span>
+            <span class="wishes heart">Have a brave heart</span>
+            <span class="wishes chance">Use your chances and Win</span>
+            <span class="wishes win">...and Win</span>
+        </p>
     </div>
     <div class="s-footer">
         <div class="shadow-top"></div>
@@ -166,7 +165,9 @@
     <script type="text/javascript" src="js/jquery.cslider.js"></script>
     <script type="text/javascript">
         $(function () {
-            $('#da-slider').cslider();
+            $('#da-slider').cslider({
+                autoplay    :true
+            });
         });
     </script>
 </body>

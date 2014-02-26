@@ -17,7 +17,6 @@
 	height: 100%;
 	top: 0px;
 	left: 0px;
-	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 	text-align: left;
 }
 .da-slide-current{
@@ -48,23 +47,24 @@
 	opacity: 1;
 }
 .da-slide h2{
-	color: #fff;
+	color: #FFF2B9;
 	font-size: 50px;
 	width: 60%;
 	min-width: 900px;
-	top: 60px;
+	top: 80px;
 	z-index: 10;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.80);
 	font-weight: 600;
+    font-style: italic;
 }
 .da-slide p{
 	width: 45%;
 	min-width: 600px;
-	top: 200px;
-	color: #fff;
+	top: 230px;
+	color: #FFF2B9;
 	font-size: 26px;
 	line-height: 30px;
-	height: 80px;
+	height: 100px;
 	overflow: hidden;
 	font-style: italic;
 	font-weight: 400;
@@ -111,7 +111,7 @@
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	background: #e4b42d;
+	background: #734201;
 	margin: 3px;
 	cursor: pointer;
 	box-shadow: 
@@ -126,66 +126,32 @@
 	top: 2px;
 	left: 2px;
 	border-radius: 50%;
-	background: rgb(255,255,255);
-	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1)));
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
-	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
-	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
-	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+	background: #e5d299;
 }
 .da-arrows{
 	-moz-user-select: none;
 	-webkit-user-select: none;
 }
 .da-arrows span{
-	position: absolute;
-	top: 50%;
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	background: #e4b42d;
-	cursor: pointer;
-	z-index: 2000;
-	opacity: 0;
-	box-shadow: 
-		1px 1px 1px rgba(0,0,0,0.1) inset, 
-		1px 1px 1px rgba(255,255,255,0.1);
-	-webkit-transition: opacity 0.4s ease-in-out-out 0.2s;
-	-moz-transition: opacity 0.4s ease-in-out-out 0.2s;
-	-o-transition: opacity 0.4s ease-in-out-out 0.2s;
-	-ms-transition: opacity 0.4s ease-in-out-out 0.2s;
-	transition: opacity 0.4s ease-in-out-out 0.2s;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 80px;
+    z-index: 2000;
 }
 .da-slider:hover .da-arrows span{
-	opacity: 1;
-}
-.da-arrows span:after{
-	content: '';
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	top: 5px;
-	left: 5px;
-	background: transparent url(../images/arrows.png) no-repeat top left;
-	border-radius: 50%;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-}
-.da-arrows span:hover:after{
-	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-}
-.da-arrows span:active:after{
-	box-shadow: 1px 1px 1px rgba(255,255,255,0.1);
-}
-.da-arrows span.da-arrows-next:after{
-	background-position: top right;
+    opacity: 0.6;
 }
 .da-arrows span.da-arrows-prev{
-	left: 15px;
+    background: url("../img/arrow-left.png") no-repeat center center #271711;
+	left: 0;
 }
 .da-arrows span.da-arrows-next{
-	right: 15px;
+    background: url("../img/arrow-right.png") no-repeat center center #271711;
+	right: 0;
 }
 
 .da-slide-current h2,
