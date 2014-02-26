@@ -87,9 +87,11 @@ var controller = {
         },
 
         get: function(req, res, next){
-            PlayerModel.find({}, {_id: false, score: 1, name: 1, identificator: 1},  {sort: { score: -1 }}, function(err, players){
+            PlayerModel.find({}, {_id: false, score: 1, name: 1, identificator: 1, countGames: 1},  {sort: { score: -1 }}, function(err, players){
                 if( err ) return next( new HttpError(400, "Cannot get players") );
-                res.send(players);
+                res.send({
+                    players: players
+                });
             })
         }
     }

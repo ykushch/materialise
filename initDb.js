@@ -348,4 +348,3 @@ IdentificatorModel.remove({}, function(err) {
         logger.info("All identificators were saved!");
     })
 });
-

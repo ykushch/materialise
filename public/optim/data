@@ -1,0 +1,3 @@
+cd
+cd Dropbox/web/sites/materialise/public/optim
+bash < run.sh

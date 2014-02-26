@@ -5,6 +5,7 @@ var rootController = require('../controllers/root')
 module.exports = function(app) {
     app.get('/', rootController.home);
     app.get('/slot-machine', rootController.machine);
+    app.get('/photo-gallery', rootController.gallery);
 
 
     //add new winner

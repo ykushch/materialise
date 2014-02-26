@@ -1,66 +1,148 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <script src="js/libs/jquery.js"></script>
-    <script src="js/libs/aes.js"></script>
+    <title>
+        Materialise Wild West
+    </title>
+    <link href="/img/site-icon.png" type="image/png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style2.css" />
+
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="/css/nojs.css" />
+    </noscript>
 </head>
 <body>
+<div class="s-header-inner">
+    <div class="b-logo main-wrapper">
+        <div class="star left"></div>
+        <div class="b-welcome"></div>
+        <div class="star rigth"></div>
+    </div>
+</div>
 
+<div id="da-slider" class="da-slider">
+    <div class="slider-title">
+        Materialise Cowboy code
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy never takes unfair advantage - even of an enemy</h2>
+        <p>Be tough, but fair.</p>
+        <div class="da-img"></div>
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy never betrays a trust. He never goes back on his word</h2>
+        <p>When you make a promise, keep it. You cannot unsay a cruel word.</p>
+        <div class="da-img"></div>
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy always tells the truth</h2>
+        <p>The highest badge of honor a cowboy can wear is honesty. Be truthful at all times.</p>
+        <div class="da-img"></div>
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy is kind and gentle to small children, old folks, and animals</h2>
+        <p>That men should live by the rule of what is best for the greatest number.</p>
+        <div class="da-img"></div>
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy is free from racial and religious intolerances</h2>
+        <p>That all men are created equal and that everyone has within himself the power to make this a better world.</p>
+        <div class="da-img"></div>
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy is always a good worker</h2>
+        <p>That God put the firewood there, but that every man must gather and light it himself. Only through hard work and study can you succeed. Don't be lazy.</p>
+        <div class="da-img"></div>
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy is clean about his person in thought, word, and deed</h2>
+        <p>If you want to be respected, you must respect others. Show good manners in every way.</p>
+        <div class="da-img"></div>
+    </div>
+    <div class="da-slide">
+        <h2>A cowboy is a Patriot</h2>
+        <p>In being prepared physically, mentally, and morally to fight when necessary for that which is right. That all things change, but the truth, and the truth alone lives on forever.</p>
+        <div class="da-img"></div>
+    </div>
+    <nav class="da-arrows">
+        <span class="da-arrows-prev">prev</span>
+        <span class="da-arrows-next">next</span>
+    </nav>
+</div>
 
-<script>
-    var data = {
-        name: "pet92",
-        score: 5,
-        identificator: "796c8"
-    }
+<div class="s-spin-reels">
+    <img class="spin-reels" src="img/spin-reels.png" alt="" />
+</div>
+<div class="s-leaderboard-inner" id="leaderboard">
+    <div class="main-wrapper">
+        <div class="b-title results">Leaderboard & results</div>
+        <div class="leaderboard-wrapper">
+        </div>
+        <div class="b-footer kudos">Kudos</div>
+    </div>
+</div>
+<div class="s-letsplay-inner">
+    <div class="shadow-top"></div>
+    <div class="shadow-bottom"></div>
+    <div class="main-wrapper">
+        <a href="slot-machine" class="s-letsplay">Click here to visit online slot machine
+            <span class="horseshoe left"></span>
+            <span class="horseshoe right"></span>
+        </a>
+    </div>
+</div>
+<div class="s-photo-wall-inner main-wrapper">
+    <a href="/photo-gallery" class="photo f1">
+        <img src="img/photo-1.png" alt="" /></a>
+    <a href="/photo-gallery" class="photo f2">
+        <img src="img/photo-4.png" alt="" /></a>
+    <a href="/photo-gallery" class="photo f3">
+        <img src="img/photo-2.png" alt="" /></a>
+    <a href="/photo-gallery" class="photo f4">
+        <img src="img/photo-3.png" alt="" /></a>
+    <span class="cowboy-bg"></span>
+</div>
 
-    data = JSON.stringify(data);
-    var secret = "keepSimple";
+<div class="s-letsplay-inner">
+    <div class="shadow-top"></div>
+    <div class="shadow-bottom"></div>
+    <div class="main-wrapper">
+        <a href="/photo-gallery" class="s-letsplay">Photo gallery
+            <span class="horseshoe left"></span>
+            <span class="horseshoe right"></span>
+        </a>
+    </div>
+</div>
+<div class="s-salon-menu">
+    Dear  Cowboy
+    We wish you to
 
-    var encrypted = '' + CryptoJS.AES.encrypt(data, secret);
-
-
-    $.ajax({
-        type: 'post',
-        url: '/api/score/add',
-        data: {
-            data: encrypted
-        },
-        success: function(){
-            debugger
-        },
-        error: function(xhr, type, message){
-            debugger
-        }
-    })
-
-    $.ajax({
-        type: "get",
-        url: "/api/score/get",
-        success: function(){
-            debugger
-        },
-        error: function(xhr, type, message){
-            debugger
-        }
-    })
-
-
-</script>
-
-
+    Accept the challenge
+    Be on the top
+    Be in love
+    Be inspired
+    Have a brave heart
+    Use your chances
+    and Win
+</div>
+<div class="s-footer">
+    <div class="shadow-top"></div>
+</div>
 
 <script type="text/javascript" src="js/require.js"></script>
-<script type="text/javascript">
+<script src="js/prod/index_prod.js"></script>
+{{!--<script type="text/javascript">
     require([
-        './js/automat'
+        'js/config'
     ], function(){
-        require(['automat/main'])
+        require(['index/main'], function(){})
     });
-</script>
-<script type="text/javascript" data-main="js/app/general" src="js/require.js"></script>
+</script>--}}
 
 </body>
 </html>

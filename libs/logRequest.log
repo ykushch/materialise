@@ -347,3 +347,527 @@
 {"level":"error","message":"","timestamp":"2014-02-16T22:19:36.559Z"}
 {"level":"error","message":"","timestamp":"2014-02-16T22:19:36.563Z"}
 {"level":"error","message":"","timestamp":"2014-02-16T22:19:37.561Z"}
+{"level":"info","message":"Web server listening: 45612","timestamp":"2014-02-26T19:37:20.971Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T19:37:20.995Z"}
+{"level":"info","message":"New player 'pet92' with identificator: 796c8was saved","timestamp":"2014-02-26T19:37:31.336Z"}
+{"status":404,"url":"/index.html","level":"warn","message":"","timestamp":"2014-02-26T19:52:04.118Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:52:04.125Z"}
+{"level":"info","message":"Web server listening: 45612","timestamp":"2014-02-26T19:58:59.202Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T19:58:59.226Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-02-26T19:59:06.816Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:06.818Z"}
+{"status":404,"url":"/public/css/demo.css","level":"warn","message":"","timestamp":"2014-02-26T19:59:06.822Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:06.823Z"}
+{"status":404,"url":"/public/css/style2.css","level":"warn","message":"","timestamp":"2014-02-26T19:59:06.824Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:06.824Z"}
+{"status":404,"url":"/public/js/libs/modernizr.custom.js","level":"warn","message":"","timestamp":"2014-02-26T19:59:06.826Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:06.826Z"}
+{"status":404,"url":"/public/js/libs/jquery.pfold.js","level":"warn","message":"","timestamp":"2014-02-26T19:59:06.827Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:06.827Z"}
+{"status":404,"url":"/public/js/libs/jquery.cslider.js","level":"warn","message":"","timestamp":"2014-02-26T19:59:06.830Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:06.830Z"}
+{"status":404,"url":"/public/img/site-icon.png","level":"warn","message":"","timestamp":"2014-02-26T19:59:07.353Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:07.371Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-02-26T19:59:10.699Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:10.700Z"}
+{"status":404,"url":"/public/css/demo.css","level":"warn","message":"","timestamp":"2014-02-26T19:59:10.701Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:10.701Z"}
+{"status":404,"url":"/public/css/style2.css","level":"warn","message":"","timestamp":"2014-02-26T19:59:10.702Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:10.702Z"}
+{"status":404,"url":"/public/js/libs/modernizr.custom.js","level":"warn","message":"","timestamp":"2014-02-26T19:59:10.704Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:10.704Z"}
+{"status":404,"url":"/public/js/libs/jquery.pfold.js","level":"warn","message":"","timestamp":"2014-02-26T19:59:10.706Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:10.707Z"}
+{"status":404,"url":"/public/js/libs/jquery.cslider.js","level":"warn","message":"","timestamp":"2014-02-26T19:59:10.710Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:10.710Z"}
+{"status":404,"url":"/public/img/site-icon.png","level":"warn","message":"","timestamp":"2014-02-26T19:59:10.946Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T19:59:10.947Z"}
+{"status":404,"url":"/public/js/libs/modernizr.custom.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:12.015Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:12.016Z"}
+{"status":404,"url":"/public/js/libs/jquery.pfold.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:12.022Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:12.022Z"}
+{"status":404,"url":"/public/js/libs/jquery.cslider.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:12.032Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:12.032Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:00:13.065Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:13.065Z"}
+{"status":404,"url":"/public/js/libs/modernizr.custom.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:26.421Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:26.421Z"}
+{"status":404,"url":"/public/js/libs/jquery.pfold.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:26.423Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:26.425Z"}
+{"status":404,"url":"/public/js/libs/jquery.cslider.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:26.433Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:26.433Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:00:26.894Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:26.896Z"}
+{"status":404,"url":"/public/js/libs/modernizr.custom.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:28.282Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:28.282Z"}
+{"status":404,"url":"/public/js/libs/jquery.pfold.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:28.283Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:28.283Z"}
+{"status":404,"url":"/public/js/libs/jquery.cslider.js","level":"warn","message":"","timestamp":"2014-02-26T20:00:28.288Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:28.289Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:00:28.525Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:28.527Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:00:52.917Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:00:52.918Z"}
+{"level":"info","message":"Web server listening: 45612","timestamp":"2014-02-26T20:04:30.580Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T20:04:30.608Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:04:44.574Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:04:44.574Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:04:50.059Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:04:50.060Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:04:57.862Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:04:57.864Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:05:13.667Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:05:13.668Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:06:51.009Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:06:51.011Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:09:11.828Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:09:11.828Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:09:35.361Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:09:35.361Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:10:03.860Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:10:03.861Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:10:04.772Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:10:04.772Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:10:50.148Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:10:50.149Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:12:24.642Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:12:24.648Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:13:01.632Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:13:01.633Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:13:02.589Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:13:02.591Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:13:03.664Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:13:03.666Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:13:10.676Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:13:10.677Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:02.360Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:02.364Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:03.430Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:03.430Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:04.215Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:04.216Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:09.433Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:09.440Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:29.645Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:29.645Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:30.428Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:30.429Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:37.808Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:37.810Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:38.603Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:38.604Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:49.096Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:49.097Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:14:49.879Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:14:49.880Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:15:12.536Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:15:12.537Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:15:13.302Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:15:13.303Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:15:14.229Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:15:14.231Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:15:14.724Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:15:14.725Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:15:28.699Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:15:28.700Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:15:54.057Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:15:54.058Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:17:09.369Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:17:09.372Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:17:22.391Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:17:22.394Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:19:26.208Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:19:26.209Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:20:13.740Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:20:13.741Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:20:49.172Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:20:49.173Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:23:54.608Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:23:54.612Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:25:50.417Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:25:50.418Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:25:51.723Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:25:51.724Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:26:03.780Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:03.781Z"}
+{"status":404,"url":"/js/libs/index/main.js?bust=1393446363940","level":"warn","message":"","timestamp":"2014-02-26T20:26:04.070Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:04.071Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:26:05.686Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:05.687Z"}
+{"status":404,"url":"/js/libs/index/main.js?bust=1393446365841","level":"warn","message":"","timestamp":"2014-02-26T20:26:05.973Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:05.974Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:26:25.220Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:25.222Z"}
+{"status":404,"url":"/js/libs/index/main.js?bust=1393446385401","level":"warn","message":"","timestamp":"2014-02-26T20:26:25.491Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:25.492Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:26:25.881Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:25.882Z"}
+{"status":404,"url":"/js/libs/index/main.js?bust=1393446386060","level":"warn","message":"","timestamp":"2014-02-26T20:26:26.143Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:26:26.143Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:27:08.551Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:27:08.553Z"}
+{"status":404,"url":"/js/libs/index/main.js?bust=1393446428710","level":"warn","message":"","timestamp":"2014-02-26T20:27:08.740Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:27:08.740Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:27:11.077Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:27:11.077Z"}
+{"status":404,"url":"/js/libs/index/main.js?bust=1393446431261","level":"warn","message":"","timestamp":"2014-02-26T20:27:11.290Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:27:11.291Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:27:45.250Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:27:45.252Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:28:28.377Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:28:28.378Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:41:22.524Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:41:22.525Z"}
+{"status":404,"url":"/js/index/modules/table/template/TableTemplate.html?bust=1393447282683","level":"warn","message":"","timestamp":"2014-02-26T20:41:23.036Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:41:23.038Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:41:25.329Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:41:25.330Z"}
+{"status":404,"url":"/js/index/modules/table/template/TableTemplate.html?bust=1393447285488","level":"warn","message":"","timestamp":"2014-02-26T20:41:25.823Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:41:25.824Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:45:02.714Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:45:02.715Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:45:31.687Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:45:31.688Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:49:14.843Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:49:14.844Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:50:52.866Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:50:52.866Z"}
+{"level":"info","message":"Web server listening: 45612","timestamp":"2014-02-26T20:50:57.505Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T20:50:57.526Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:51:00.127Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:51:00.128Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:52:03.206Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:52:03.208Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:52:55.839Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:52:55.840Z"}
+{"level":"info","message":"Web server listening: 45612","timestamp":"2014-02-26T20:53:06.039Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T20:53:06.066Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:54:48.130Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:54:48.131Z"}
+{"level":"info","message":"Web server listening: 45612","timestamp":"2014-02-26T20:54:56.016Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T20:54:56.046Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:55:00.620Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:55:00.621Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:55:25.141Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:55:25.142Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:55:52.835Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:55:52.838Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:56:38.523Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:56:38.524Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:58:26.699Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:58:26.699Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:58:44.651Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:58:44.652Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T20:59:17.672Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T20:59:17.673Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:00:00.988Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:00:00.989Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:00:04.949Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:00:04.950Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:00:28.423Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:00:28.425Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:00:46.783Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:00:46.784Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:00:58.566Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:00:58.567Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:02:03.272Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:02:03.273Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:03:41.167Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:03:41.167Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:04:21.689Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:04:21.690Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:04:34.142Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:04:34.143Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:05:21.282Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:05:21.283Z"}
+{"level":"info","message":"New player 'mue' with identificator: 89e73was saved","timestamp":"2014-02-26T21:06:36.333Z"}
+{"level":"info","message":"Existing player 'mue' with identificator: 89e73 was updated","timestamp":"2014-02-26T21:06:44.686Z"}
+{"level":"info","message":"Update countGames for 'mue' with identificator: 89e73","timestamp":"2014-02-26T21:06:44.687Z"}
+{"level":"info","message":"New player 'mue1' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:27.185Z"}
+{"level":"info","message":"New player 'mue12' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:28.228Z"}
+{"level":"info","message":"New player 'mue312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:29.418Z"}
+{"level":"info","message":"New player 'mu4e312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:30.355Z"}
+{"level":"info","message":"Existing player 'mu4e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:07:31.511Z"}
+{"level":"info","message":"Update countGames for 'mu4e312' with identificator: 89e73","timestamp":"2014-02-26T21:07:31.512Z"}
+{"level":"info","message":"Existing player 'mu4e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:07:31.679Z"}
+{"level":"info","message":"Update countGames for 'mu4e312' with identificator: 89e73","timestamp":"2014-02-26T21:07:31.681Z"}
+{"level":"info","message":"Existing player 'mu4e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:07:31.854Z"}
+{"level":"info","message":"Update countGames for 'mu4e312' with identificator: 89e73","timestamp":"2014-02-26T21:07:31.855Z"}
+{"level":"info","message":"New player 'mu64e312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:32.742Z"}
+{"level":"info","message":"New player 'mu63454e312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:34.110Z"}
+{"level":"info","message":"New player 'm456u63454e312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:35.037Z"}
+{"level":"info","message":"New player 'm423456u63454e312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:36.032Z"}
+{"level":"info","message":"New player 'm345423456u63454e312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:07:37.304Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:15.970Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:15.972Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:16.114Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:16.119Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:16.257Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:16.258Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:16.405Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:16.407Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:16.543Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:16.545Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:16.943Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:16.948Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:17.168Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:17.170Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:17.527Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:17.528Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:18.011Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:18.012Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:18.335Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:18.337Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:18.506Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:18.508Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:18.655Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:18.657Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:18.810Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:18.811Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:18.958Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:18.960Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:19.456Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:19.457Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:19.991Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:19.993Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:20.379Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:20.380Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:20.638Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:20.640Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:20.817Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:20.818Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:20.978Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:20.980Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:21.160Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:21.162Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:21.358Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:21.361Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:21.527Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:21.598Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:22.224Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:22.226Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:22.719Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:22.721Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:22.920Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:22.922Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:23.080Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:23.082Z"}
+{"level":"info","message":"Existing player 'm345423456u63454e312' with identificator: 89e73 has exist or below value","timestamp":"2014-02-26T21:08:23.237Z"}
+{"level":"info","message":"Update countGames for 'm345423456u63454e312' with identificator: 89e73","timestamp":"2014-02-26T21:08:23.238Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T21:08:47.735Z"}
+{"level":"info","message":"All players was deleted","timestamp":"2014-02-26T21:08:47.780Z"}
+{"level":"info","message":"All identificators was deleted","timestamp":"2014-02-26T21:08:47.789Z"}
+{"level":"info","message":"All identificators were saved!","timestamp":"2014-02-26T21:08:47.947Z"}
+{"level":"info","message":"New player 'm345423456u63454e312' with identificator: 89e73was saved","timestamp":"2014-02-26T21:08:55.936Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:00.296Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:02.285Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:03.398Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:04.163Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:04.321Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:04.467Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:04.610Z"}
+{"error":{"status":400,"message":"Cannot find id"},"level":"error","message":"","timestamp":"2014-02-26T21:09:04.763Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:09:06.073Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:09:06.075Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:09:36.890Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:09:36.892Z"}
+{"status":404,"url":"/public","level":"warn","message":"","timestamp":"2014-02-26T21:17:44.054Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:17:44.055Z"}
+{"status":404,"url":"/public/optim/","level":"warn","message":"","timestamp":"2014-02-26T21:17:48.738Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:17:48.740Z"}
+{"status":404,"url":"/public/optim/build.js","level":"warn","message":"","timestamp":"2014-02-26T21:17:55.275Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:17:55.276Z"}
+{"status":404,"url":"/public/optim/build.js","level":"warn","message":"","timestamp":"2014-02-26T21:17:57.134Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:17:57.134Z"}
+{"status":404,"url":"/public/optim/build.js","level":"warn","message":"","timestamp":"2014-02-26T21:17:57.612Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:17:57.616Z"}
+{"status":404,"url":"/public/optim/build.js","level":"warn","message":"","timestamp":"2014-02-26T21:17:57.866Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:17:57.866Z"}
+{"status":404,"url":"/public/optim/build.js","level":"warn","message":"","timestamp":"2014-02-26T21:17:58.151Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:17:58.151Z"}
+{"status":404,"url":"/public/optim/build.js","level":"warn","message":"","timestamp":"2014-02-26T21:18:10.921Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:18:10.922Z"}
+{"level":"info","message":"Web server listening: 60003","timestamp":"2014-02-26T21:23:55.807Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T21:23:55.831Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:25:18.123Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:25:18.125Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:28:14.559Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:28:14.560Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:28:18.678Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:28:18.680Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:28:21.802Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:28:21.803Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:29:05.278Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:29:05.280Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:29:25.714Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:29:25.714Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:29:45.350Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:29:45.352Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:30:49.113Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:30:49.114Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:32:21.321Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:32:21.322Z"}
+{"status":404,"url":"/index/main.js?bust=1393450341436","level":"warn","message":"","timestamp":"2014-02-26T21:32:21.522Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:32:21.522Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:32:24.516Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:32:24.517Z"}
+{"status":404,"url":"/index/main.js?bust=1393450344586","level":"warn","message":"","timestamp":"2014-02-26T21:32:24.692Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:32:24.693Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:37:22.440Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:37:22.441Z"}
+{"status":404,"url":"/public/js/index/main.js?bust=1393450642569","level":"warn","message":"","timestamp":"2014-02-26T21:37:22.599Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:37:22.600Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:15.753Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:15.754Z"}
+{"status":404,"url":"/public/js/config","level":"warn","message":"","timestamp":"2014-02-26T21:38:15.839Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:15.841Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:16.745Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:16.746Z"}
+{"status":404,"url":"/public/js/config","level":"warn","message":"","timestamp":"2014-02-26T21:38:16.850Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:16.852Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:17.590Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:17.591Z"}
+{"status":404,"url":"/public/js/config","level":"warn","message":"","timestamp":"2014-02-26T21:38:17.787Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:17.792Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:23.886Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:23.887Z"}
+{"status":404,"url":"/js/config","level":"warn","message":"","timestamp":"2014-02-26T21:38:23.980Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:23.981Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:24.610Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:24.610Z"}
+{"status":404,"url":"/js/config","level":"warn","message":"","timestamp":"2014-02-26T21:38:24.710Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:24.718Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:24.951Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:24.952Z"}
+{"status":404,"url":"/js/config","level":"warn","message":"","timestamp":"2014-02-26T21:38:25.074Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:25.074Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:27.286Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:27.287Z"}
+{"status":404,"url":"/public/js/index/main.js?bust=1393450707332","level":"warn","message":"","timestamp":"2014-02-26T21:38:27.363Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:27.364Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:28.212Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:28.212Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:38:28.560Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:28.561Z"}
+{"status":404,"url":"/public/js/index/main.js?bust=1393450708743","level":"warn","message":"","timestamp":"2014-02-26T21:38:28.777Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:38:28.778Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:39:06.308Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:06.309Z"}
+{"status":404,"url":"/public/js/index/main.js?bust=1393450746448","level":"warn","message":"","timestamp":"2014-02-26T21:39:06.484Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:06.484Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:39:21.812Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:21.813Z"}
+{"status":404,"url":"/public/index/main.js?bust=1393450761986","level":"warn","message":"","timestamp":"2014-02-26T21:39:22.027Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:22.027Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:39:24.016Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:24.017Z"}
+{"status":404,"url":"/public/index/main.js?bust=1393450764264","level":"warn","message":"","timestamp":"2014-02-26T21:39:24.335Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:24.335Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:39:38.885Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:38.886Z"}
+{"status":404,"url":"/public/js/index/main.js?bust=1393450779096","level":"warn","message":"","timestamp":"2014-02-26T21:39:39.161Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:39.162Z"}
+{"status":404,"url":"/public/js/index/main.js?bust=1393450779096","level":"warn","message":"","timestamp":"2014-02-26T21:39:49.466Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:49.466Z"}
+{"status":404,"url":"/public/js/index/main.js","level":"warn","message":"","timestamp":"2014-02-26T21:39:52.029Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:39:52.029Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:40:19.041Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:40:19.041Z"}
+{"status":404,"url":"/js/js/index/main.js?bust=1393450819208","level":"warn","message":"","timestamp":"2014-02-26T21:40:19.241Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:40:19.242Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:40:44.948Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:40:44.948Z"}
+{"status":404,"url":"/js/text.js?bust=1393450845149","level":"warn","message":"","timestamp":"2014-02-26T21:40:45.343Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:40:45.344Z"}
+{"status":404,"url":"/js/jquery.js?bust=1393450845149","level":"warn","message":"","timestamp":"2014-02-26T21:40:45.345Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:40:45.345Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:41:11.753Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:41:11.753Z"}
+{"status":404,"url":"/js/text.js?bust=1393450871896","level":"warn","message":"","timestamp":"2014-02-26T21:41:12.210Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:41:12.210Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:41:21.481Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:41:21.481Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:43:59.807Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:43:59.807Z"}
+{"status":404,"url":"/js/config","level":"warn","message":"","timestamp":"2014-02-26T21:43:59.942Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:43:59.944Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:44:07.414Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:44:07.414Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T21:48:35.811Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T21:48:35.811Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:10:08.121Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:10:08.122Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:22:33.132Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:22:33.134Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:22:36.441Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:22:36.442Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:23:03.604Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:23:03.604Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:25:15.365Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:25:15.366Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:25:22.408Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:25:22.408Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:25:50.612Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:25:50.615Z"}
+{"status":404,"url":"/js/libs/jquery.cslider.js.js?bust=1393453550787","level":"warn","message":"","timestamp":"2014-02-26T22:25:50.989Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:25:50.991Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:26:12.346Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:26:12.346Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:26:50.302Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:26:50.303Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:27:07.194Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:27:07.195Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:31:34.889Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:31:34.891Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:31:58.530Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:31:58.532Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:40:21.513Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:40:21.592Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:40:28.411Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:40:28.412Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:44:05.854Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:44:05.855Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:44:09.282Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:44:09.282Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:44:48.629Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:44:48.630Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:44:59.370Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:44:59.371Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:45:37.608Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:45:37.609Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T22:45:43.704Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:45:43.706Z"}
+{"status":404,"url":"/js/jquery.galleriffic.js","level":"warn","message":"","timestamp":"2014-02-26T22:48:26.715Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:48:26.716Z"}
+{"status":404,"url":"/js/jquery.opacityrollover.js","level":"warn","message":"","timestamp":"2014-02-26T22:48:26.724Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:48:26.725Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T22:48:28.865Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:48:28.866Z"}
+{"status":404,"url":"/js/jquery.galleriffic.js","level":"warn","message":"","timestamp":"2014-02-26T22:48:35.561Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:48:35.562Z"}
+{"status":404,"url":"/js/jquery.opacityrollover.js","level":"warn","message":"","timestamp":"2014-02-26T22:48:35.562Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:48:35.563Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T22:48:37.483Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:48:37.483Z"}
+{"status":404,"url":"/js/jquery.galleriffic.js","level":"warn","message":"","timestamp":"2014-02-26T22:49:07.241Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:49:07.242Z"}
+{"status":404,"url":"/js/jquery.opacityrollover.js","level":"warn","message":"","timestamp":"2014-02-26T22:49:07.243Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:49:07.244Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T22:49:07.476Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:49:07.480Z"}
+{"status":404,"url":"/js/jquery.galleriffic.js","level":"warn","message":"","timestamp":"2014-02-26T22:49:10.082Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:49:10.082Z"}
+{"status":404,"url":"/js/jquery.opacityrollover.js","level":"warn","message":"","timestamp":"2014-02-26T22:49:10.083Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:49:10.083Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T22:49:10.382Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:49:10.387Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T22:49:56.764Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T22:49:56.764Z"}
+{"level":"info","message":"Web server listening: 60003","timestamp":"2014-02-26T23:14:03.304Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-26T23:14:03.673Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2014-02-26T23:14:16.798Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T23:14:16.802Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T23:14:29.159Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T23:14:29.161Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T23:14:44.766Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T23:14:45.048Z"}

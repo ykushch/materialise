@@ -3,7 +3,7 @@ define([
     './instance/automate'
 ], function(Backbone, Automate){
 
-    new Automate();
+    //new Automate();
 
     var Controller = {
         getAutomate: function(){

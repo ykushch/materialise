@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/libs/jquery.js"></script>
+    <script src="js/libs/aes.js"></script>
+</head>
+<body>
+
+
+<script>
+    var data = {
+        name: "pet92",
+        score: 5,
+        identificator: "796c8"
+    }
+
+    data = JSON.stringify(data);
+    var secret = "keepSimple";
+
+    var encrypted = '' + CryptoJS.AES.encrypt(data, secret);
+
+
+    $.ajax({
+        type: 'post',
+        url: '/api/score/add',
+        data: {
+            data: encrypted
+        },
+        success: function(){
+            debugger
+        },
+        error: function(xhr, type, message){
+            debugger
+        }
+    })
+
+    $.ajax({
+        type: "get",
+        url: "/api/score/get",
+        success: function(){
+            debugger
+        },
+        error: function(xhr, type, message){
+            debugger
+        }
+    })
+
+
+</script>
+
+
+
+<script type="text/javascript" src="js/require.js"></script>
+<script type="text/javascript">
+    require([
+        './js/automat'
+    ], function(){
+        require(['automat/main'])
+    });
+</script>
+<script type="text/javascript" data-main="js/app/general" src="js/require.js"></script>
+
+</body>
+</html>
