@@ -1,7 +1,7 @@
 require([
     "automat/modules/automat/module"
-], function(automatModule){
+], function(AutomatModule){
 
-
+    AutomatModule.getAutomate();
 
 })

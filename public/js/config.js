@@ -4,6 +4,7 @@ requirejs.config({
 
     paths: {
         automat: '../automat',
+        index: '../index',
 
         /*libs*/
         underscore: "underscore",

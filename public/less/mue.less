@@ -1,0 +1,45 @@
+.button{
+  cursor: pointer;
+}
+
+.message{
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  width: 300px;
+  margin: 0 0 0 -150px;
+  top: -50px;
+  left: 50%;
+  transition: top 2s;
+  -webkit-transition: top 1s;
+  -moz-transition: top 1s;
+  -o-transition: top 1s;
+  background: rgba(255, 255, 255, 0.67);
+  font-size: 18px;
+  z-index: 15;
+  color: rgb(92, 56, 9);
+
+  &.in{
+    top: 5px;
+  }
+}
+
+/*Table*/
+.leaderboard-wrapper{
+  overflow-x: hidden;
+  max-height: 300px;
+
+  table{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+
+    td, th{
+      padding: 5px 8px;
+      font-size: 14px;
+      color: rgb(207, 191, 139);
+    }
+  }
+
+}

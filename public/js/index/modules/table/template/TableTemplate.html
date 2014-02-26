@@ -1,0 +1,19 @@
+<thead>
+<tr>
+    <th></th>
+    <th>Name</th>
+    <th>Number</th>
+    <th>Best win</th>
+    <th>Games number</th>
+</tr>
+</thead>
+<tbody>
+<% _.each(players, function(player, i){ %>
+<tr>
+    <td><%= i+1 %>.</td>
+    <td><%= player.name %></td>
+    <td><%= player.identificator %></td>
+    <td><%= player.score %></td>
+    <td><%= player.countGames %></td>
+</tr>
+<% }) %>
