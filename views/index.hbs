@@ -8,8 +8,6 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    {{!--<script src="http://malsup.github.com/jquery.cycle2.js"></script>--}} {{!--галерея--}}
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="stylesheet" type="text/css" href="/css/demo.css" />
     <link rel="stylesheet" type="text/css" href="/css/style2.css" />
@@ -82,6 +80,7 @@
 </div>
 <div class="s-leaderboard-inner" id="leaderboard">
     <div class="main-wrapper">
+        <div class="b-title results">Leaderboard & results</div>
         <div class="leaderboard-wrapper">
         </div>
         <div class="b-footer kudos">Kudos</div>
@@ -134,24 +133,16 @@
 <div class="s-footer">
     <div class="shadow-top"></div>
 </div>
-<script type="text/javascript" src="/js/libs/modernizr.custom.js"></script>
-<script type="text/javascript" src="/js/libs/jquery.pfold.js"></script>
-<script type="text/javascript" src="/js/libs/jquery.cslider.js"></script>
-
-<script type="text/javascript">
-    $(function () {
-        $('#da-slider').cslider();
-    });
-</script>
 
 <script type="text/javascript" src="js/require.js"></script>
-<script type="text/javascript">
+<script src="js/prod/index_prod.js"></script>
+{{!--<script type="text/javascript">
     require([
-        './js/config'
+        'js/config'
     ], function(){
-        require(['index/main'])
+        require(['index/main'], function(){})
     });
-</script>
+</script>--}}
 
 </body>
 </html>

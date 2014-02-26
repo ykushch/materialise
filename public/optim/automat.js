@@ -1,7 +1,8 @@
-requirejs.config({
-
-    baseUrl: '/js',
-
+({
+    baseUrl: "../js",
+    name: "automat/main",
+    out: "../js/prod/automat_prod.js",
+    waitSeconds : 15,
     paths: {
         automat: 'automat',
         index: 'index',
@@ -38,6 +39,4 @@ requirejs.config({
             deps: ['jquery']
         }
     },
-
-    urlArgs: "bust=" + (new Date()).getTime()
-});
+})
