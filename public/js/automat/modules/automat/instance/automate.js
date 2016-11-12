@@ -15,6 +15,12 @@ define([
             BetsBtnView, MachineItemsViews, MachineControlView,
             PopUpView, PopUpModel){
 
+
+    /**
+     * After player makes bet and press 'Play' btn, Automate execute play method.
+     * Model generate result, after that view starts rotate.
+     * After rotating the view trigger 'endRotate' event and ask modek to calculate whether player win or lose money
+     * */
     function Automate(options){
         this.init(options);
     }
@@ -127,6 +133,7 @@ define([
             return $.trim(this.layout.$el.find('.input-id').val());
         },
 
+        // write scores on the server
         getwin: function(){
 
             if( !this.getName() || !this.getId() ){

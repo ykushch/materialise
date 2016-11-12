@@ -871,3 +871,60 @@
 {"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T23:14:29.161Z"}
 {"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2014-02-26T23:14:44.766Z"}
 {"error":{"view":{"name":"error","root":"/home/mue/Dropbox/web/sites/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-26T23:14:45.048Z"}
+{"level":"info","message":"Web server listening: 60003","timestamp":"2016-11-03T20:18:10.096Z"}
+{"message":"failed to connect to server [109.251.151.22:27017] on first connect","name":"MongoError","stack":"MongoError: failed to connect to server [109.251.151.22:27017] on first connect\n    at null.<anonymous> (/home/mue/web/projects/materialise/node_modules/mongodb-core/lib/topologies/server.js:313:35)\n    at emitOne (events.js:77:13)\n    at emit (events.js:169:7)\n    at null.<anonymous> (/home/mue/web/projects/materialise/node_modules/mongodb-core/lib/connection/pool.js:271:12)\n    at g (events.js:260:16)\n    at emitTwo (events.js:87:13)\n    at emit (events.js:172:7)\n    at Socket.<anonymous> (/home/mue/web/projects/materialise/node_modules/mongodb-core/lib/connection/connection.js:165:49)\n    at Socket.g (events.js:260:16)\n    at emitOne (events.js:77:13)\n    at Socket.emit (events.js:169:7)\n    at emitErrorNT (net.js:1256:8)\n    at nextTickCallbackWith2Args (node.js:441:9)\n    at process._tickCallback (node.js:355:17)","level":"error","timestamp":"2016-11-03T20:18:13.105Z"}
+{"level":"info","message":"Web server listening: 60003","timestamp":"2016-11-03T20:18:50.642Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/materialise_dev","timestamp":"2016-11-03T20:18:50.680Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:19:03.155Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:19:03.157Z"}
+{"level":"info","message":"Web server listening: 60003","timestamp":"2016-11-03T20:19:58.660Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/materialise_dev","timestamp":"2016-11-03T20:19:58.685Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:20:02.267Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:20:02.270Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:20:26.048Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:20:26.057Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2016-11-03T20:21:27.211Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:21:27.212Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:22:22.529Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:22:22.531Z"}
+{"error":{"status":400,"message":"Cannot parse data"},"level":"error","message":"","timestamp":"2016-11-03T20:24:21.555Z"}
+{"error":{"status":400,"message":"Cannot parse data"},"level":"error","message":"","timestamp":"2016-11-03T20:24:25.210Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:26:40.061Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:26:40.062Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2016-11-03T20:26:50.210Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:26:50.211Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2016-11-03T20:26:58.084Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:26:58.085Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:27:18.716Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:27:18.717Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:33:14.725Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:33:14.735Z"}
+{"status":404,"url":"/css/loader.gif","level":"warn","message":"","timestamp":"2016-11-03T20:34:10.896Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:34:10.896Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:34:58.491Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:34:58.491Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/materialise_dev","timestamp":"2016-11-03T20:36:06.246Z"}
+{"level":"info","message":"All identificators was deleted","timestamp":"2016-11-03T20:36:06.257Z"}
+{"level":"info","message":"All players was deleted","timestamp":"2016-11-03T20:36:06.427Z"}
+{"level":"info","message":"All identificators were saved!","timestamp":"2016-11-03T20:36:06.680Z"}
+{"error":{"status":400,"message":"Cannot parse data"},"level":"error","message":"","timestamp":"2016-11-03T20:36:23.916Z"}
+{"error":{"status":400,"message":"Cannot parse data"},"level":"error","message":"","timestamp":"2016-11-03T20:36:30.151Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:36:36.325Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:36:36.326Z"}
+{"error":{"status":400,"message":"Cannot parse data"},"level":"error","message":"","timestamp":"2016-11-03T20:38:09.278Z"}
+{"error":{"status":400,"message":"Cannot parse data"},"level":"error","message":"","timestamp":"2016-11-03T20:41:22.050Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:41:26.745Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:41:26.746Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:42:29.349Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:42:29.350Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-03T20:48:33.094Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-03T20:48:33.095Z"}
+{"level":"info","message":"Web server listening: 60003","timestamp":"2016-11-12T06:16:48.244Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/materialise_dev","timestamp":"2016-11-12T06:16:48.272Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-12T06:16:56.408Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-12T06:16:56.411Z"}
+{"level":"info","message":"Web server listening: 60003","timestamp":"2016-11-12T06:46:55.266Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/materialise_dev","timestamp":"2016-11-12T06:46:55.290Z"}
+{"level":"info","message":"New player 'Vitalii' with identificator: 8579fwas saved","timestamp":"2016-11-12T06:49:01.740Z"}
+{"status":404,"url":"/images/arrows.png","level":"warn","message":"","timestamp":"2016-11-12T06:49:06.175Z"}
+{"error":{"view":{"name":"error","root":"/home/mue/web/projects/materialise/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2016-11-12T06:49:06.177Z"}

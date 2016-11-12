@@ -2,7 +2,7 @@ define(['backbone'], function(Backbone){
     return Backbone.Model.extend({
 
         defaults: {
-            totalWin: 500,
+            totalWin: 50,
             roundWin: 0,
             bet: 1,
             roundResult: null,
@@ -56,95 +56,8 @@ define(['backbone'], function(Backbone){
             }
         ],
 
-        initialize: function(){
-            this.tableForGenerateResult = this.generateTableResult();
-            this.setTurnbet();
-
-            var coutBetBit1 = 0;
-            var winnerStart = {
-                1: 0,
-                2: 0,
-                3: 0,
-                4: 0,
-                5: 0,
-                6: 0,
-                7: 0,
-                8: 0,
-                9: 0,
-                10: 0,
-                11: 0
-            }
-
-            /*var popitka = 100000;
-
-            for(var i = 0; i < popitka; i++ ){
-                this.set("roundResult", this.generateResult());
-                var winnerBet = this.getAllWinnerBet();
-                if( winnerBet.length ){
-                    for( var k = 0; k < winnerBet.length; k++ ){
-
-                        winnerStart[winnerBet[k]['winnerStar']]++;
-
-                        if( winnerBet[k].bet_bit == 1 ||  winnerBet[k].bet_bit == 2  ){
-                            coutBetBit1++;
-                        }
-                    }
-                }
-            }
-
-            console.log(winnerStart);
-            console.log("countBetBit: " + (coutBetBit1*100)/popitka + "%");
-*/
-        },
-
-        setTurnbet: function(){
-            var turnbet = this.get('bet') *  this.get('linecost');
-            this.set('turnbet', turnbet);
-        },
-
-        generateTableResult: function(){
-            var result = []
-                , percent;
-            for( var i = 0; i < this.tableOfStars.length; i++ ){
-                percent = this.tableOfStars[i].percent;
-                for( var j = 0; j < percent; j++ ){
-                    result.push(this.tableOfStars[i]['id']);
-                }
-            }
-
-            return this.shuffleArray(result);
-        },
-
-        shuffleArray: function(array) {
-            for (var i = array.length - 1; i > 0; i--) {
-                var j = Math.floor(Math.random() * (i + 1));
-                var temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
-            }
-            return array;
-        },
-
-        getRandomStarts: function(count){
-            var result = [];
-            for( var i = 0; i < count; i++ ){
-                result.push(this.tableOfStars[this.getRandomValue(0, 10)]);
-            }
-            return result;
-        },
-
-        getStarsByIds: function(stars){
-            var result = [];
-            for( var i = 0; i < stars.length; i++ ){
-                for( var k = 0; k < this.tableOfStars.length; k++ ){
-                    if( stars[i] == this.tableOfStars[k]['id'] ){
-                        result.push(this.tableOfStars[k]);
-                    }
-                }
-            }
-            return result;
-        },
-
+        // win[key] - count of repetition
+        // win[value] - count of money
         tableOfStars: [
             {
                 percent: 1,
@@ -264,6 +177,103 @@ define(['backbone'], function(Backbone){
             }
         ],
 
+        initialize: function(){
+            this.tableForGenerateResult = this.generateTableResult();
+            this.setTurnbet();
+
+            var coutBetBit1 = 0;
+            var winnerStart = {
+                1: 0,
+                2: 0,
+                3: 0,
+                4: 0,
+                5: 0,
+                6: 0,
+                7: 0,
+                8: 0,
+                9: 0,
+                10: 0,
+                11: 0
+            }
+
+            /*var popitka = 100000;
+
+            for(var i = 0; i < popitka; i++ ){
+                this.set("roundResult", this.generateResult());
+                var winnerBet = this.getAllWinnerBet();
+                if( winnerBet.length ){
+                    for( var k = 0; k < winnerBet.length; k++ ){
+
+                        winnerStart[winnerBet[k]['winnerStar']]++;
+
+                        if( winnerBet[k].bet_bit == 1 ||  winnerBet[k].bet_bit == 2  ){
+                            coutBetBit1++;
+                        }
+                    }
+                }
+            }
+
+            console.log(winnerStart);
+            console.log("countBetBit: " + (coutBetBit1*100)/popitka + "%");
+*/
+        },
+
+        // launch once
+        setTurnbet: function(){
+            var turnbet = this.get('bet') *  this.get('linecost');
+            this.set('turnbet', turnbet);
+        },
+
+        /**
+         * Генерирует один массив куда входят все id звезд.
+         * Чем больше pecent тем больше звезд с одинаковым id будет в массиве
+         * */
+        generateTableResult: function(){
+            var result = []
+                , percent;
+            for( var i = 0; i < this.tableOfStars.length; i++ ){
+                percent = this.tableOfStars[i].percent;
+                for( var j = 0; j < percent; j++ ){
+                    result.push(this.tableOfStars[i]['id']);
+                }
+            }
+
+            return this.shuffleArray(result);
+        },
+
+        shuffleArray: function(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+            return array;
+        },
+
+        getRandomStarts: function(count){
+            var result = [];
+            for( var i = 0; i < count; i++ ){
+                result.push(this.tableOfStars[this.getRandomValue(0, 10)]);
+            }
+            return result;
+        },
+
+        getStarsByIds: function(stars){
+            var result = [];
+            for( var i = 0; i < stars.length; i++ ){
+                for( var k = 0; k < this.tableOfStars.length; k++ ){
+                    if( stars[i] == this.tableOfStars[k]['id'] ){
+                        result.push(this.tableOfStars[k]);
+                    }
+                }
+            }
+            return result;
+        },
+
+        /**
+         * Generate round result after player press play btn
+         * */
         generateResult: function(options){
             var result = [];
             for( var i = 0; i < 5; i++ ){
@@ -274,6 +284,7 @@ define(['backbone'], function(Backbone){
             return result;
         },
 
+        // generate result for one vertical line
         generateOneLine: function(){
             var line = [];
             for( var i = 0 ; i < 3 ; i++ ){
@@ -282,6 +293,9 @@ define(['backbone'], function(Backbone){
             return line;
         },
 
+        /**
+         * рандомно выбирает из таблицы с id, один id
+         * */
         generateOneBit: function(){
             var index = this.getRandomValue(0, this.tableForGenerateResult.length-1);
             return this.tableForGenerateResult[index];
@@ -343,7 +357,6 @@ define(['backbone'], function(Backbone){
             //transform 11 star to sublings star
             winnerValues = this.transform11ToSublings(winnerValues);
 
-
             for( i = 0; i < winnerValues.length; i++ ){
                 if( i == 0 ){
                     prevValue = winnerValues[i];
@@ -356,12 +369,12 @@ define(['backbone'], function(Backbone){
                         winnerStar = null;
                     }else if( overlap <= 1 ){
                         //если уже были совпадения, запоминаем их
-                        overlap = 0;
+                        overlap = 1;
                         winnerStar = null;
                     } else{
                         lastWinnerStar = winnerStar;
                         lastOverlap = overlap;
-                        overlap = 0;
+                        overlap = 1;
                         winnerStar = null;
                         break;
                     }
@@ -386,7 +399,7 @@ define(['backbone'], function(Backbone){
 
             if( overlap > 1 ){
 
-                /* console.log('-----------------------------')
+                 /*console.log('-----------------------------')
                  console.log("winner star: " + winnerStar);
                  console.log("winnerValues: " + winnerValues);
                  console.log("overlap: " + overlap);
@@ -516,5 +529,4 @@ define(['backbone'], function(Backbone){
             return result;
         }
     })
-
-})
+});
