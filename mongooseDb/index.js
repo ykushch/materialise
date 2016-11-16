@@ -1,6 +1,6 @@
 var mongoose = require('mongoose'),
-    logger = require('libs/log')(module),
-    config = require('config');
+    logger = require('../libs/log')(module),
+    config = require('../config');
 
 mongoose.connect('mongodb://' + config.get('db:ip') + '/' + config.get('db:nameDatabase'));
 

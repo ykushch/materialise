@@ -1,9 +1,9 @@
 var IdentificatorModel = require('../models/identificator/identificator')
     , crypto = require('crypto')
-    , config = require('config')
-    , logger = require('libs/log')(module)
-    , HttpError = require('error').HttpError
-    , Secret = require('libs/utils').Secret
+    , config = require('../config')
+    , logger = require('../libs/log')(module)
+    , HttpError = require('../error').HttpError
+    , Secret = require('../libs/utils').Secret
     , _ = require('underscore')
     , PlayerModel = require('../models/player/player');
 

@@ -1,7 +1,7 @@
 var nodemailer = require("nodemailer")
     , _ = require("underscore")
-    , logger = require("libs/log")(module)
-    , config = require("config");
+    , logger = require("../libs/log")(module)
+    , config = require("../config");
 
 function EmailSender(data){
     this.data = data;

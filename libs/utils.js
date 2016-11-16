@@ -1,5 +1,5 @@
 var CryptoJS = require("crypto-js")
-    , config = require('config');
+    , config = require('../config');
 
 var Secret = {};
 Secret.decode = function(data){

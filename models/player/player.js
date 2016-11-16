@@ -2,7 +2,7 @@ var _ = require('underscore'),
     util = require('util'),
     async = require('async'),
     mongoose = require('mongoose'),
-    logger = require("libs/log")(module);
+    logger = require("../../libs/log")(module);
 
 var Schema = mongoose.Schema;
 var playerSchema = new Schema({

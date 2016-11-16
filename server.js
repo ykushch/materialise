@@ -1,13 +1,13 @@
 var express = require('express'),
     app = express(),
-    route = require('routes/route'),
+    route = require('./routes/route'),
     http = require('http'),
-    HttpError = require('error').HttpError,
-    EmailSender = require('libs/EmailSender'),
-    logger = require("libs/log")(module),
-    config = require("config");
+    HttpError = require('./error').HttpError,
+    EmailSender = require('./libs/EmailSender'),
+    logger = require("./libs/log")(module),
+    config = require("./config");
 
-require("mongooseDb");
+require("./mongooseDb");
 app.use(express.favicon());
 
 app.configure(function() {
@@ -18,7 +18,7 @@ app.configure(function() {
     app.set('view engine', 'hbs');
 });
 
-app.use( require("middleware/sendHttpError") );
+app.use( require("./middleware/sendHttpError") );
 
 //routing
 route(app);
